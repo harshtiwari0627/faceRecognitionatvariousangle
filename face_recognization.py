@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 
-b = face_recognition.load_image_file('Images/h.jpg')  # Edit the image location 
+b = face_recognition.load_image_file('$$')  # Edit the image location inplace of $$ 
 c = face_recognition.face_encodings(b)[0]
 
 known_face_encoding=[]
